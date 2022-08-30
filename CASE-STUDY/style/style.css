@@ -1,0 +1,21 @@
+form{
+    padding: 20px 0;
+    margin-bottom: 0px;
+}
+body {
+    background-image: url('../img/red-wood-texture-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    position: relative;
+}
+.pad-bot{
+    padding-bottom: 20px;
+}   
+.page2 , .page3 {
+    display: none;
+}
+#pagenumber {
+    margin: auto;
+    text-align: center;
+}

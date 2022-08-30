@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+    <title>List of Lists</title>
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">TODO List</h1>
+        <div class="sidebar">
+            <h3>Primary List</h3>
+            <span><input type="text" id="l1"><button onclick="addtodo()">Add</button></span>
+            <ul id="primary_list">
+                <li>Add primary list items here</li>
+            </ul>
+        </div>
+        <div class="mainbar">
+            <h3>Secondary List</h3>
+            <span><input type="text" id="l2"><button onclick="addlist()">Add</button></span>
+            <ul id="secondary_list">
+                <li>Add secondary list items here</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

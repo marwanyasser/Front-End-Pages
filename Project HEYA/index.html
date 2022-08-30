@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>HEYA</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel = "stylesheet" type = "text/css" href = "css2.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <img style="width:200px" id="avatar" src="heya.jpg" alt="Avatar">
+            <div class="topnav">
+                <a href="#home">Home</a>
+                <a href="#sale">Sale</a>
+                <a href="#contact">Contact us</a>
+                <a id ="right" href="#about">About HEYA</a>
+            </div>
+        </nav>
+        <div class="page">
+            <div class="content">
+                <main>
+                    <img id="regavatar" src="avatarlogo.jpg" alt="avatar">
+                    <h1>Registration</h1>
+                    <h4>Kindly fill in the form..</h4>
+                    <p id="rednotice">fields with (*) are required</p>
+                    <form id="reg" action="#">
+                        <p>Name : *</p>
+                        <input type="text" name="name" placeholder=" your name .." required><br>
+                        <div id="inline">
+                        <p>Gender</p>
+                        <pre style="width:30px"><input type="radio" name="gender" value="male">Male<input type="radio" id="female" name="gender" value="female">Female</div></pre><br>
+                        <label for="month" style="float: left">Month of birth :</label>
+                        <input type="month" name="month" min="1950-01" value="2019-10"><br>
+                        <p>Mobile :  *</p>
+                        <input type="number" id="number" name="Mobile" placeholder="01xxxxxxxxx" required><br>
+                        <p>Email Address :</p>
+                        <input type="email" placeholder="example@enactus.com">
+                        <input type="submit" value="Register">
+                    </form>
+                </main>
+            </div>
+            <footer>
+                <h4>"Heya aims to empower the marginalized women so it provides them with the needed trainings and workshops by teaching them handcrafts."</h4>
+                <div id="logo">
+                    <img name="enactuslogo" src="footer-logo.png">
+                </div>
+                <h5>Enactus Egypt</h5>
+                <h6>Golf Area | Heliopolis ǀ Cairo, Egypt</h6>
+            </footer></div>
+        </div>
+    </body>
+</html>

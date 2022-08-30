@@ -1,0 +1,59 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance:textfield;
+}
+html {
+  overflow-y: scroll;
+}
+#heya {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 100rem;
+}
+body {
+  background-image: url("../brown-wooden-floor-172292.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#brandname {
+  color: white;
+  font-size: 1.5rem;
+}
+#hover {
+  font-size: larger;
+  color: lightgray;
+}
+#hover:hover {
+  color: white;
+}
+* {
+  border-radius: 0 !important;
+}
+a {
+  text-decoration: none !important;
+}
+a.center {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+ul.equal {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+li.equal {
+  display: block;
+  flex: 0 1 auto;
+  list-style-type: none;
+}
